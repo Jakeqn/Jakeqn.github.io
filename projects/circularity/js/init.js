@@ -77,10 +77,10 @@ var init = function (window) {
                 circle.x = canvas.width;
             }
             if ( circle.y > canvas.height ) {
-                circle.x = 0;
+                circle.y = 0;
             }
-            if ( circle.y >0< 0 ) {
-                circle.x = canvas.height;
+            if ( circle.y < 0 ) {
+                circle.y = canvas.height;
             }
 
 
